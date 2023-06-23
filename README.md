@@ -60,11 +60,7 @@ library(modelsummary); library(tidyverse)
 ```
 
 **Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
-growth variable i icin meanlere bakinca revolitionu olan ulkeler 1.68 digerkeri 2.29 bu buze soyluyo darbe olmayan ulkelerin ekon growthlari daha iyi
-medianlara bakinca 1.92, standartta 2.29 darbe olanarda median meanin uzerinde, low growth daha fazla gozlem var
-median meanin altinda revoltianryde
-rev olanlar sayisi, olmayanlar su, rgdp 60 gelismislik indicatoru intuiton veriyo bize
-ortlamalari da ayri, 
+In countries with coup d'etat, their ecconmic growth was sginficantly stunted, olmost by half in their median and mean scores. This means that "no revolutions" is beneficial in the growth of thwe country. This could be due to the perception of the Country's stability, diminishing the injections into the economy by foregin nationls in tourism and investment alike. 
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
 
