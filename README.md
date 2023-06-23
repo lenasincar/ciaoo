@@ -85,7 +85,7 @@ $$
 
 **Question 3.3**: What do you think the purpose of including the variable `rgdp60` is? Look at `?GrowthSW` to find out what the variables mean. 
 
-#'rgdp60' means value of GDP per capita in 1960 and the purpose of inculding it is to make us more infored about a country development- develop country indicator.
+#The purpose of including the variable 'rgdp60' is to inform the people about a country's development which can be the indicator of developed countries. The variable 'rgdp60'  means value of GDP per capita in 1960.
 We now want to estimate a stepwise model. Stepwise means that we first estimate a univariate regression $\text{growth}_i = \beta_0 + \beta_1 \cdot \text{treat}_i + \epsilon_i$, and in each subsequent model, we add one control variable. 
 
 **Question 3.4**: Write four models, titled `model1`, `model2`, `model3`, `model4` (using the `lm` function) to memory. Hint: you can also use the `update` function to add variables to an already existing specification.
@@ -111,7 +111,8 @@ list(model1, model2, model3, model4) |>
 **Question 3.5**: Edit the code chunk above to remove many statistics from the table, but keep only the number of observations $N$, and the $R^2$ statistic. 
 
 **Question 3.6**: According to this analysis, what is the main driver of economic growth? Why?
-#According to this analysis, the main driver of economic growth is education as it has the biggest value for the rsquaredde en buyuk education, halk bilgileniyo 
+#According to this analysis, the main driver of economic growth is education as it has the biggest value for the r-squared.
+
 **Question 3.7**: In the code chunk below, edit the table such that the cells (including standard errors) corresponding to the variable `treat` have a red background and white text. Make sure to load the `kableExtra` library beforehand.
 
 ```{r}
